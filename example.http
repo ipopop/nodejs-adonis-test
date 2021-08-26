@@ -1,0 +1,14 @@
+# POST http://localhost:3333/recipes
+# Accept: application/json
+# Content-Type: application/json
+
+# {
+#     "name": "pizza maison",
+#     "content": "avec des produits frais du jardin, un régal pour les papilles"
+# }
+
+###
+
+GET http://localhost:3333/recipes
+Accept: application/json
+Content-Type: application/json
