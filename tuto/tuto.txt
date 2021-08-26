@@ -1,0 +1,7 @@
+yarn create adonis-ts-app prepAdonis;
+
+yarn add @adonisjs/lucid@alpha;
+
+node ace invoke @adonisjs/lucid;
+
+mysql -u root -p --default-character-set=utf8 -e "CREATE DATABASE prepadonis;"
